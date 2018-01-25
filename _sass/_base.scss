@@ -193,7 +193,7 @@ header {
             }
         }
     }
-    @media (min-width: 768px) {
+    @media (min-width: 880px) {
         min-height: 100%;
         .header-wording {
           position: relative;
@@ -203,6 +203,33 @@ header {
         .header-content {
             position: absolute;
             top: 72%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            padding: 0;
+            .header-content-inner {
+                max-width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                p {
+                    font-size: 18px;
+                    max-width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+    @media (max-width: 879px) {
+        min-height: 100%;
+        .header-wording {
+          position: relative;
+          z-index: 9999;
+          bottom: 75rem;
+        }
+        .header-content {
+            position: absolute;
+            top: 75%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -307,6 +334,7 @@ header {
 }
 .gif {
   top: 3rem;
+  margin-bottom: 4rem;
 }
 
 // Bootstrap Overrides
