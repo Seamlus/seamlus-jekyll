@@ -52,7 +52,14 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: #2b3030
+}
+.col-lg-6.text-center {
+    color: #2b3030;
+}
+
+a.btn.btn-primary.btn-xl.page-scroll.more-button {
+    color: #2b3030;
 }
 
 section {
@@ -190,7 +197,7 @@ header {
         min-height: 100%;
         .header-content {
             position: absolute;
-            top: 50%;
+            top: 63%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
