@@ -168,7 +168,7 @@ header {
     .header-wording {
       position: relative;
       z-index: 9999;
-      bottom: 50rem;
+      bottom: 58rem;
     }
     .header-content {
         position: relative;
@@ -195,9 +195,14 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
+        .header-wording {
+          position: relative;
+          z-index: 9999;
+          bottom: 67rem;
+        }
         .header-content {
             position: absolute;
-            top: 63%;
+            top: 72%;
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -215,6 +220,10 @@ header {
             }
         }
     }
+}
+// Jordan's mobile responsiveness changes
+@media screen and (min-width: 1355px) {
+
 }
 
 // Sections
