@@ -160,6 +160,7 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
+    overflow: hidden;
     @include background-cover;
     background-position: center;
     background-image: url('../img/abstract_network.mp4');
