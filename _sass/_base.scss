@@ -158,6 +158,11 @@ header {
     background-image: url('../img/abstract_network.mp4');
     text-align: center;
     color: white;
+    .header-wording {
+      position: relative;
+      z-index: 9999;
+      bottom: 50rem;
+    }
     .header-content {
         position: relative;
         text-align: center;
