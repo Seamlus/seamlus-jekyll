@@ -164,6 +164,7 @@ header {
     background-position: center;
     background-image: url('../img/abstract_network.mp4');
     text-align: center;
+    z-index: -1;
     color: white;
     .header-wording {
       position: relative;
