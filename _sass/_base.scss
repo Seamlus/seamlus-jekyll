@@ -229,6 +229,9 @@ header {
           z-index: 9999;
           bottom: 75rem;
         }
+          h1 {
+            font-size: 40px !important
+          }
         .header-content {
             position: absolute;
             top: 75%;
@@ -247,6 +250,16 @@ header {
                     margin-right: auto;
                 }
             }
+        }
+    }
+    @media (max-width: 600px) {
+      .header-wording {
+        position: relative;
+        z-index: 9999;
+        bottom: 75rem;
+      }
+        h1 {
+          font-size: 30px !important
         }
     }
 }
