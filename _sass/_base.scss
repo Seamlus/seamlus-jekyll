@@ -412,6 +412,14 @@ body {
     -webkit-tap-highlight-color: $theme-dark;
 }
 
-.portolio-images:nth-child(3n+1) {
-    clear: both;
+@media screen and (min-width: 1200px) {
+  .portolio-images:nth-child(3n+1) {
+      clear: both;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .portolio-images:nth-child(2n+1) {
+      clear: both;
+  }
 }
