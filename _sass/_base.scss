@@ -411,3 +411,7 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
+
+.portolio-images:nth-child(3n+1) {
+    clear: both;
+}
