@@ -165,7 +165,7 @@ header {
     background-position: center;
     background-image: url('../img/abstract_network.mp4');
     text-align: center;
-    z-index: -1;
+    z-index: 1;
     color: white;
     .header-wording {
       position: relative;
@@ -243,6 +243,7 @@ header {
                 max-width: 100%;
                 margin-left: auto;
                 margin-right: auto;
+                padding-top: 100px;
                 p {
                     font-size: 18px;
                     max-width: 80%;
